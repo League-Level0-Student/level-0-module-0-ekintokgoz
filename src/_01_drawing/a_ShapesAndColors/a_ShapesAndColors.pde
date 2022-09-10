@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size (100,200);
+  size (500,800);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -12,7 +12,9 @@
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
 //    The ellipse command looks like this:      
- ellipse(250,250, 100,100);
+ ellipse(250,650,300,300);
+ ellipse(250,400,200,200);
+ ellipse(250,235,125,125);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
@@ -20,8 +22,17 @@
 
 // 4. Now add a rect command to draw a rectangle.
 
-//    The rect command looks like this:       
-rect(250,250, 100,100);
+//    The rect command looks like this:  
+fill(#0F0F0F);
+rect(213,75,75,100);
+rect(188,160,125,25);
+ellipse(250,460,20,20);
+ellipse(250,400,20,20);
+ellipse(250,345,20,20);
+ellipse(225,220,20,20);
+ellipse(275,220,20,20);
+fill(#FF7D03);
+triangle (255,250,230,245,255,235);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
